@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilização do Cabeçalho */
+
+.cabecalho {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 23px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-menu-white {
+    color: white;
+}
+
+.link-menu {
+    color: #6C757D;
+}
+
+
+.menu a {
+    text-decoration: none;
+    padding: 0px 18px;
+}
+
+.campo-texto {
+    height: 35px;
+    padding: 0px 10px;
+    border: none;
+    outline: none;
+}
+
+.botao-buscar {
+    padding: 8px 12px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+/* Estilização do Banner */
+
+.banner-meteora img {
+    width: 100%;
+}
+
+/* Estilização Container Categorias */
+
+.categorias-itens {
+    display: flex;
+    justify-content: center;
+}
+
+.titulos-site-categoria {
+    text-align: center;
+    padding: 20px 0px;
+    margin: 72px 0px 32px;
+    font-size: 32px;
+}
+
+
+.categorias-itens div {
+    padding: 0px 15px;
+}
+
+.categorias-itens img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cat-itens {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 12px 0px;
+}
+
+
+/* Estilização Divs Itens Venda */
+
+.titulo-site-prod_bomb {
+    text-align: center;
+    padding: 20px 0px;
+    margin: 48px 0px 30px;
+    font-size: 32px;
+}
+
+.produtos-itens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos-itens div {
+    width: 400px;
+    margin: 15px 10px;
+    border: 1px solid #00000021;
+}
+
+.produtos-itens img {
+    width: 100%;
+}
+
+.ver-mais {
+    margin-left: 16px;
+    margin-bottom: 16px;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    background-color: #9353FF;
+}
+
+.titulo-prod {
+    padding: 10px 16px;
+    font-weight: bold;
+}
+
+.texto-prod {
+    padding: 0px 16px;
+}
+
+.preco {
+    padding: 13px 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
